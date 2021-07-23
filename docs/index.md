@@ -167,7 +167,7 @@ One of the benefits of this end-to-end neural framework is that we can use a uni
 <p><strong>Pengcheng Guo</strong></p>
 <p>Pengcheng Guo is a Ph.D. candidate at Northwestern Polytechnical University, Xi'an, China.
 His supervisors are Prof. Lei Xie and Prof. Shinji Watanabe. From Jul. 2017 to Jul. 2018, he was a research assistant at Nanyang Technology University, Singapore, collaborating with Prof. Eng Siong Chng and Prof. Haizhou Li. From Apr. 2019 to Nov. 2019, he was a research intern at ByteDance AI Lab, Beijing, China, collaborating with Dr. Yuxuan Wang (the author of Tacotron). From Jan.2020 to Jan. 2021, he joined Shinji Watanabe’s team as a visiting scholar at Johns Hopkins University, Baltimore, US. His research interests include automatic speech recognition, domain adaptation, and adversarial training. He is the main developer of ESPnet and has contributed to a lot of projects, including the Conformer architecture, various ASR benchmark recipes, etc.</p>
-<p>More details on the talk plan: <a href="https://docs.google.com/document/d/1ijipwXiqpkOocac-O4wrxuEGBR-v5rM4q3PMx4NwRD0/edit?usp=sharing">https://docs.google.com/document/d/1ijipwXiqpkOocac-O4wrxuEGBR-v5rM4q3PMx4NwRD0/edit?usp=sharing</a></p>
+
 </div>
 <br>
 
