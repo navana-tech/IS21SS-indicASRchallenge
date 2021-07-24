@@ -14,7 +14,7 @@
 <p style="font-size:16.5px;"><strong><span style="color:red">Please note that Hindi-English and Bengali-English train and test data have been updated on February 16, 2021. Please discard the data if you have downloaded before February 16, 2021. Make sure you download the updated data from the links below in this page.</span></strong></p>
 <p style="font-size:16.5px;">Please note the followings before downloading the data:</p>
 <ul>
-  <li style="font-size:16.5px;">The download links for Hindi, Marathi, Odia, Hindi-English, and Bengali-English have zipped files which are password protected. The passwords are shared with only registered participants of the challenge.</li>
+  <li style="font-size:16.5px;">The download links for Hindi, Marathi, Odia, Hindi-English, and Bengali-English have zipped files. Mirror1 links are password-free and can be used for downloading the dataset.</li>
   <li style="font-size:16.5px;">There are two links (Main and Mirror1) to download data for each language's train and test excluding Tamil, Telugu and Gujarati. You can use any one of those three links. </li>
   <li style="font-size:16.5px;">There are two links (Main, Mirror1) to download data of blind test set for each subtask. You can use any one of those two links.</li>
   <li style="font-size:16.5px;">If clicking the download links does not download the zipped files, then do one of the following:</li>
