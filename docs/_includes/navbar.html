@@ -18,24 +18,42 @@
    
 
       {% comment %} Always show link to home page. {% endcomment %}
-      <a class="navbar-brand" style="clor:blue" href="{{ relative_root_path }}{% link index.md %}">MUCS 2021: MUltilingual and Code-Switching ASR Challenges for Low Resource Indian Languages</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href = "https://forms.gle/sKZstsHdXg1qtmYz8"><button class="btn btn-danger navbar-btn">Register for MUCS 2021!</button></a>
+      <a class="navbar-brand" href="{{ relative_root_path }}{% link index.md %}">MUCS 2021</a>
 
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
 
 	{% comment %} Always show code of conduct. {% endcomment %}
+  <li><a href="{{ relative_root_path }}{% link tentative_program.md %}">Tentative Program</a></li> 
   <li><a href="{{ relative_root_path }}{% link challenge_details.md %}">Challenge Details</a></li> 
+  <li><a href="{{ relative_root_path }}{% link timeline.md %}">Challenge Timeline</a></li>
+  
   <li><a href="{{ relative_root_path }}{% link team.md %}">Organizers</a></li>
-   <li><a href="{{ relative_root_path }}{% link timeline.md %}">Challenge Timeline</a></li>
-	 <li><a href="{{ relative_root_path }}{% link rules.md %}">Challenge Rules</a></li>
-   <li><a href="{{ relative_root_path }}{% link data.md %}">Dataset</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MUCS Challenge<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a href="{{ relative_root_path }}{% link rules.md %}">Challenge Rules</a></li>
+      <li><a href="{{ relative_root_path }}{% link data.md %}">Dataset</a></li>
+      <li><a href="{{ relative_root_path }}{% link baselines.md %}">Baselines</a></li>
+      <li><a href="{{ relative_root_path }}{% link leaderboard.md %}">Leaderboard</a></li>
+      <li><a href="{{ relative_root_path }}{% link faq.md %}">Challenge FAQs</a></li>
+      <li><a href="{{ relative_root_path }}{% link btest.md %}">Blind Test Submission</a></li>
+    </ul>
+  </li>
    <li><a href="{{ relative_root_path }}{% link contact-page.md %}">Contact</a></li>
-   <li><a href="{{ relative_root_path }}{% link baselines.md %}">Baselines</a></li>
-   <li><a href="{{ relative_root_path }}{% link leaderboard.md %}">Leaderboard</a></li>
-   <li><a href="{{ relative_root_path }}{% link faq.md %}">FAQs</a></li>
-   <li><a href="{{ relative_root_path }}{% link btest.md %}">Blind Test Submission</a></li>
+   
    <li><a href="{{ relative_root_path }}{% link paper.md %}">Paper</a></li>
+   <li><a href = "https://forms.gle/sKZstsHdXg1qtmYz8"><button class="btn btn-lg align-middle btn-outline-secondary" type="button"><span style="color: red;"><strong>Register (Free) for MUCS 2021!</strong></span></button></a></li>
+
+  </ul>
+  <ul class="nav navbar-nav navbar-right">
+    
+  </ul>
+
+
+   
+
         {% if site.kind == "lesson" %}
 	{% comment %} Show setup instructions. {% endcomment %}
         

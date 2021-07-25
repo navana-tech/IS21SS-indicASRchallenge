@@ -10,17 +10,21 @@
 {% else %}
 {% assign online = "false" %}
 {% endif %}
-<style>
-#blink {
-    font-size: 20px;
-    font-weight: bold;
-    color: #2d38be;
-    transition: 0.5s;
-}
-</style>
-<br>
-<br>
-<br>
+<SCRIPT type="text/javascript">
+  function JavaBlink() {
+     var blinks = document.getElementsByTagName('JavaBlink');
+     for (var i = blinks.length - 1; i >= 0; i--) {
+        var s = blinks[i];
+        s.style.visibility = (s.style.visibility === 'visible') ? 'hidden' : 'visible';
+     }
+     window.setTimeout(JavaBlink, 1000);
+  }
+  if (document.addEventListener) document.addEventListener("DOMContentLoaded", JavaBlink, false);
+  else if (window.addEventListener) window.addEventListener("load", JavaBlink, false);
+  else if (window.attachEvent) window.attachEvent("onload", JavaBlink);
+  else window.onload = JavaBlink;
+</SCRIPT>
+
 <br>
 <div class="jumbotron">
   <div class="row">
@@ -33,7 +37,7 @@
       <div class="row">
         <div class="col-md-6">
           
-          <p id="blink"> <a href="./MUCS_Flyer_2021.pdf"><strong>Call for Participation</strong></a></p>
+          <p> <a href="./MUCS_Flyer_2021.pdf"><strong><JavaBlink>Call for Participation</JavaBlink></strong></a></p>
           
         </div>
         <div class="col-md-6">
