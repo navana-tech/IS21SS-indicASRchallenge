@@ -130,7 +130,7 @@ body {font-family: Arial;}
 
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">KEYNOTE</button>
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">EXPERT TALKS</button>
   
   
 </div>
@@ -148,7 +148,7 @@ body {font-family: Arial;}
 
 
 
-  <button class="collapsible"><img style="height: 120px; width:auto;padding:5px;"  src="./assets/img/persons/shinji_watanabe.jpg"><span style="font-size:16px"> Shinji Watanabe, Carnegie Mellon University</span> <img style="height: 120px; width:auto;padding:5px;"  src="./assets/img/persons/placeholder.jpg"><span style="font-size:16px"> Pengcheng Guo, Ph.D. candidate, Northwestern Polytechnical University</span></button>
+  <button class="collapsible"><img style="height: 120px; width:auto;padding:5px;"  src="./assets/img/persons/shinji_watanabe.jpg"><span style="font-size:16px"> Shinji Watanabe, Carnegie Mellon University</span> <img style="height: 120px; width:auto;padding:5px;"  src="./assets/img/persons/PengchengGuo.jpg"><span style="font-size:16px"> Pengcheng Guo, Ph.D. candidate, Northwestern Polytechnical University</span></button>
     <div class="content">
   <p><strong>Title:</strong> Introduction of ESPnet, End-to-End Speech Processing Toolkit</p>
 
@@ -157,12 +157,14 @@ body {font-family: Arial;}
 <div class="row">  
   <div class="column">
   <p><strong>Brief Bio: </strong>Shinji Watanabe is an Associate Professor at Carnegie Mellon University, Pittsburgh, PA. He received his B.S., M.S., and Ph.D. (Dr. Eng.) degrees from Waseda University, Tokyo, Japan. He was a research scientist at NTT Communication Science Laboratories, Kyoto, Japan, from 2001 to 2011, a visiting scholar in Georgia institute of technology, Atlanta, GA in 2009, and a senior principal research scientist at Mitsubishi Electric Research Laboratories (MERL), Cambridge, MA USA from 2012 to 2017. Prior to the move to Carnegie Mellon University, he was an associate research professor at Johns Hopkins University, Baltimore, MD USA from 2017 to 2020. His research interests include automatic speech recognition, speech enhancement, spoken language understanding, and machine learning for speech and language processing. He has been published more than 200 papers in peer-reviewed journals and conferences and received several awards, including the best paper award from the IEEE ASRU in 2019. He served as an Associate Editor of the IEEE Transactions on Audio Speech and Language Processing. He was/has been a member of several technical committees, including the APSIPA Speech, Language, and Audio Technical Committee (SLA), IEEE Signal Processing Society Speech and Language Technical Committee (SLTC), and Machine Learning for Signal Processing Technical Committee (MLSP).</p>
+  Weblink:<a href="https://sites.google.com/view/shinjiwatanabe">https://sites.google.com/view/shinjiwatanabe</a>
 
 </div>
 <div class="column">
 
   <p><strong>Brief Bio: </strong>Pengcheng Guo is a Ph.D. candidate at Northwestern Polytechnical University, Xi'an, China.
 His supervisors are Prof. Lei Xie and Prof. Shinji Watanabe. From Jul. 2017 to Jul. 2018, he was a research assistant at Nanyang Technology University, Singapore, collaborating with Prof. Eng Siong Chng and Prof. Haizhou Li. From Apr. 2019 to Nov. 2019, he was a research intern at ByteDance AI Lab, Beijing, China, collaborating with Dr. Yuxuan Wang (the author of Tacotron). From Jan.2020 to Jan. 2021, he joined Shinji Watanabe’s team as a visiting scholar at Johns Hopkins University, Baltimore, US. His research interests include automatic speech recognition, domain adaptation, and adversarial training. He is the main developer of ESPnet and has contributed to a lot of projects, including the Conformer architecture, various ASR benchmark recipes, etc.</p>
+
 
 </div>
 </div>
@@ -178,6 +180,8 @@ His supervisors are Prof. Lei Xie and Prof. Shinji Watanabe. From Jul. 2017 to J
   <p><strong>Abstract:</strong> From the early days of modern Automatic Speech Recognition (ASR) research in the 1990s, one of the driving visions of the field has been a computer-based assistant that could accomplish tasks for the user, simply by being spoken to. Today, we are close to achieving that vision, with a whole array of speech-enabled AI agents eager to help users. Amazon’s Alexa pioneered the AI assistant concept for smart speaker devices enabled by far-field ASR. It currently supports billions of customer interactions per week, on over 100 million devices across multiple languages. This talk will give an overview of the interplay between underlying speech technologies, including wakeword detection, endpointing, speaker identification, and speech recognition that enable Alexa. We highlight successes and challenges in developing large-scale ASR, and dive into the unique data aspects of large-scale deployments like Alexa, where a continuous stream of unlabeled data enables successful applications of semi-supervised learning. Finally, we highlight problems that remain to be solved before the promise of a fully natural, conversational assistant is fully realized.</p>
 
 <p><strong>Brief Bio:</strong> Sri Garimella is a senior manager of Applied Science, Alexa ASR in India. His team developed the ASR technology for launching Alexa in Indian English and Hindi languages. Sri obtained PhD from the Department of Electrical and Computer Engineering, Center for Language and Speech Processing at the Johns Hopkins University, Baltimore, USA in 2012. And Master of Engineering in Signal Processing from the Indian Institute of Science, Bangalore, India in 2006.</p>
+Weblink:<a href="https://sites.google.com/site/sivaramiisc/">https://sites.google.com/site/sivaramiisc/</a>
+
 </div>
 <br>
 
@@ -187,6 +191,7 @@ His supervisors are Prof. Lei Xie and Prof. Shinji Watanabe. From Jul. 2017 to J
   <p><strong>Abstract:</strong> The MUCS 2021 challenge has focused on building multilingual and code-switching ASR systems for Indian languages in low resource settings. Within this challenge, teams have successfully tackled important problems and have demonstrated significant improvements on various languages. Where do these gains lead us next? If we speak in order to be understood, we advocate that the next frontier in this space is spoken language understanding (SLU). In this talk we will review recent work in end-to-end spoken language understanding, where the speech input is directly processed into intent without going through an intermediate text transcript. The lessons learnt in building ASR systems in low resource settings are extremely useful for this task too, as very often there is very limited SLU training data. We will share insights on training E2E SLU systems and the challenges ahead and how they can be applied for Indic languages.</p>
 
 <p><strong>Brief Bio:</strong> Samuel Thomas received his B.Tech degree in Computer Engineering from the Cochin University of Science and Technology, India (2000) and M.S degree in Computer Science and Engineering from the Indian Institute of Technology Madras, India (2006) before earning his Doctor of Philosophy degree from the Johns Hopkins University, Baltimore in 2012. Since graduation, he has been at the IBM T.J. Watson Research Center, New York with the Speech Technologies Group. In the past, he has worked on several speech research projects and workshops with the Center for Language and Speech Processing (CLSP) at JHU, the Idiap Research Institute, Switzerland and the TeNeT group, IIT Madras. His research interests include speech processing and machine learning for speech recognition, spoken language understanding, speech synthesis and speaker recognition.</p>
+Weblink:<a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-sthomas">https://researcher.watson.ibm.com/researcher/view.php?person=us-sthomas</a>
 </div>
 <br>
 
@@ -207,6 +212,16 @@ in the areas of speech processing.</p>
 <div class="content">
   <p><strong>Title:</strong> Automatic Speech Recognition using Models from GMM-HMM  to Transformers to wav2vec2.0</p>
   <p><strong>Abstract:</strong> In this talk, I will give an overview of various models used in Automatic Speech Recognition. After a brief overview of conventional GMM-HMM models and the role of lexicon and language models, I will talk about the recent progress based on deep-learning methods. This will include DNN-HMM and CTC based approaches. This will be followed by the sequence-to-sequence approaches including Attention-Based Encoder Decoder as well as transformers. Finally, I will talk about self-supervised approaches that are inspired by BERT, GPT and contrastive predictive coding including methods like MockingJay, Wav2vec and HuBERT.</p>
+  Weblink:<a href="http://www.ee.iitm.ac.in/~umeshs/">http://www.ee.iitm.ac.in/~umeshs/</a>
+</div>
+<br>
+
+
+<button class="collapsible"><img style="height: 120px; width:auto;padding:5px;"  src="./assets/img/persons/placeholder.jpg">Vikas Joshi, Senior Applied Researcher at Microsoft Research India.</button>
+<div class="content">
+  <p><strong>Title:</strong>coming soon..</p>
+  <p><strong>Abstract:</strong> coming soon..</p>
+  <p><strong>Brief Bio:</strong> coming soon..</p>
 </div>
 <br>
 
