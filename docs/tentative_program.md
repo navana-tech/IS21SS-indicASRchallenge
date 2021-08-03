@@ -119,7 +119,7 @@
     <td class="tg-mqa1">BREAK</td>
     <td onclick="umesh(this)" class="tg-gp9k" colspan="6">S UMESH</td>
     <td class="tg-2jjb" colspan="2">Vikas Joshi</td>
-    <td onclick="shinji(this)" class="tg-5cm8" colspan="5">Shinji Watanabe</td>
+    <td onclick="shinji(this)" class="tg-5cm8" colspan="5">Shinji Watanabe & Pengcheng Guo</td>
   </tr>
 </tbody>
 </table>
