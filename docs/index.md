@@ -131,8 +131,7 @@ body {font-family: Arial;}
 
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">EXPERT TALKS</button>
-  
-  
+  <button class="tablinks" onclick="openCity(event, 'Tab2')" id="defaultOpen">TUTORIALS</button> 
 </div>
 
 <div id="London" class="tabcontent">
@@ -145,8 +144,6 @@ body {font-family: Arial;}
 </p>
 </div>
  <br>
-
-
 
   <button class="collapsible"><img style="height: 120px; width:auto;padding:5px;"  src="./assets/img/persons/shinji_watanabe.jpg"><span style="font-size:16px"> Shinji Watanabe, Carnegie Mellon University</span> <img style="height: 120px; width:auto;padding:5px;"  src="./assets/img/persons/PengchengGuo.jpg"><span style="font-size:16px"> Pengcheng Guo, Ph.D. candidate, Northwestern Polytechnical University</span></button>
     <div class="content">
@@ -196,6 +193,21 @@ Weblink:<a href="https://researcher.watson.ibm.com/researcher/view.php?person=us
 <br>
 
 
+
+
+
+<button class="collapsible"><img style="height: 120px; width:auto;padding:5px;"  src="./assets/img/persons/vikas_joshi.jfif">Vikas Joshi, Senior Applied Researcher, Microsoft Research India.</button>
+<div class="content">
+  <p><strong>Title: </strong>Recent advances in transfer learning and multilingual methods for streaming end-to-end ASR systems</p>
+  <p><strong>Abstract: </strong>Transfer learning (TL) and multilingual models often improve the performance of low resource langauges, by leveraging data from high resource langauges. Multilingual models also simplify the training and deployment strategy, as a single model is used for multiple languages. This talk will provide an overview of recent advances in TL and multilingual methods for streaming end-to-end (E2E) ASR systems.  Though there is considerable progress, most of the multilingual methods assume the availability of the input language. Hence, it is still challenging to provide a truly multilingual experience, where users can interact with voice assistants in any language, interchangeably, without explicitly setting the language of the conversation. While highlighting the improvements made, we will also discuss the practical challenges and potential research directions in building a truly multilingual experience.</p>
+  <p><strong>Brief Bio: </strong>Vikas Joshi is a senior researcher at Microsoft Speech team in India, working on various speech technologies including multilingual end-to-end ASR systems. Prior to Microsoft, he spent 3 years at Amazon Alexa, building large scale ASR systems and 4.5 years at IBM India Research labs. Vikas obtained his PhD degree from IIT Madras in 2016 and completed BTech from BVB college of Engineering, Hubli. He has over 15 publications and 10 granted patents.</p>
+  Weblink:<a href="https://in.linkedin.com/in/vikas-joshi-aa3b939">https://in.linkedin.com/in/vikas-joshi-aa3b939</a>
+</div>
+<br>
+</div>
+
+<div id="Tab2" class="tabcontent">
+
 <button class="collapsible"><img style="height: 120px; width:auto;padding:5px;"  src="./assets/img/persons/Mahadev_Prasanna.jfif">S. R. Mahadeva Prasanna, IIT Dharwad</button>
 <div class="content">
   <p><strong>Title: </strong>Speech Processing: Handcrafted features to Deep Representations</p>
@@ -217,17 +229,8 @@ in the areas of speech processing.</p>
 <br>
 
 
-<button class="collapsible"><img style="height: 120px; width:auto;padding:5px;"  src="./assets/img/persons/vikas_joshi.jfif">Vikas Joshi, Senior Applied Researcher, Microsoft Research India.</button>
-<div class="content">
-  <p><strong>Title: </strong>Recent advances in transfer learning and multilingual methods for streaming end-to-end ASR systems</p>
-  <p><strong>Abstract: </strong>Transfer learning (TL) and multilingual models often improve the performance of low resource langauges, by leveraging data from high resource langauges. Multilingual models also simplify the training and deployment strategy, as a single model is used for multiple languages. This talk will provide an overview of recent advances in TL and multilingual methods for streaming end-to-end (E2E) ASR systems.  Though there is considerable progress, most of the multilingual methods assume the availability of the input language. Hence, it is still challenging to provide a truly multilingual experience, where users can interact with voice assistants in any language, interchangeably, without explicitly setting the language of the conversation. While highlighting the improvements made, we will also discuss the practical challenges and potential research directions in building a truly multilingual experience.</p>
-  <p><strong>Brief Bio: </strong>Vikas Joshi is a senior researcher at Microsoft Speech team in India, working on various speech technologies including multilingual end-to-end ASR systems. Prior to Microsoft, he spent 3 years at Amazon Alexa, building large scale ASR systems and 4.5 years at IBM India Research labs. Vikas obtained his PhD degree from IIT Madras in 2016 and completed BTech from BVB college of Engineering, Hubli. He has over 15 publications and 10 granted patents.</p>
-  Webline:<a href="https://in.linkedin.com/in/vikas-joshi-aa3b939">https://in.linkedin.com/in/vikas-joshi-aa3b939</a>
 </div>
-<br>
 
-
-</div>
 
 
 
