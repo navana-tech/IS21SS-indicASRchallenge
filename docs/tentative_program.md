@@ -64,6 +64,7 @@
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-xgl6{border-color:#000000;font-size:15px;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-ecxm{background-color:#fffc9e;border-color:#000000;font-size:15px;font-weight:bold;text-align:center;vertical-align:middle}
 .tg .tg-rjxh{background-color:#fd6864;border-color:#000000;font-size:15px;font-weight:bold;text-align:center;vertical-align:middle}
 .tg .tg-hjwb{background-color:#9aff99;border-color:#000000;font-size:15px;font-weight:bold;text-align:center;vertical-align:middle}
 .tg .tg-utpj{background-color:#ffce93;border-color:#000000;font-size:15px;font-weight:bold;text-align:center;vertical-align:middle}
@@ -78,82 +79,82 @@
 <div class="tg-wrap"><table class="tg">
 <thead>
   <tr>
-    <th class="tg-mwa1"></th>
-    <th class="tg-mwa1">12th Aug</th>
-    <th class="tg-mwa1">13th Aug</th>
+    <th class="tg-ecxm"></th>
+    <th class="tg-ecxm">12th Aug</th>
+    <th class="tg-ecxm">13th Aug</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-xgl6">10.00-10.30</td>
+    <td class="tg-ecxm">10.00-10.30</td>
     <td class="tg-xgl6">Intro</td>
     <td class="tg-rjxh" rowspan="4">Presentation by Challenge Participants - Subtask2  </td>
   </tr>
   <tr>
-    <td class="tg-xgl6">10.30-11.00</td>
+    <td class="tg-ecxm">10.30-11.00</td>
     <td onclick="prasanna(this)" class="tg-ir9u" rowspan="6">S R Mahadev Prasanna</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">11.00-11.30</td>
+    <td class="tg-ecxm">11.00-11.30</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">11.30-12.00</td>
+    <td class="tg-ecxm">11.30-12.00</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">12.00-12.30</td>
+    <td class="tg-ecxm">12.00-12.30</td>
     <td class="tg-xgl6">Winner Announcement</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">12.30-13.00</td>
+    <td class="tg-ecxm">12.30-13.00</td>
     <td class="tg-xgl6">BREAK</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">13.00-13.30</td>
+    <td class="tg-ecxm">13.00-13.30</td>
     <td onclick="umesh(this)" class="tg-utpj" rowspan="6">S UMESH</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">13.30-14.00</td>
+    <td class="tg-ecxm">13.30-14.00</td>
     <td class="tg-xgl6">BREAK</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">14.00-14.30</td>
+    <td class="tg-ecxm">14.00-14.30</td>
     <td onclick="garimella(this)" class="tg-hjzu" rowspan="2">Sri Garimella</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">14.30-15.00</td>
+    <td class="tg-ecxm">14.30-15.00</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">15.00-15.30</td>
+    <td class="tg-ecxm">15.00-15.30</td>
     <td onclick="anurag(this)" class="tg-ju2b" rowspan="2">Anurag Dwarakanath</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">15.30-16.00</td>
+    <td class="tg-ecxm">15.30-16.00</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">16.00-16.30</td>
+    <td class="tg-ecxm">16.00-16.30</td>
     <td class="tg-xgl6">BREAK</td>
     <td onclick="vikas(this)" class="tg-9nje" rowspan="2">Vikas Joshi</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">16.30-17.00</td>
+    <td class="tg-ecxm">16.30-17.00</td>
     <td class="tg-rjxh" rowspan="4">Presentation by Challenge Participants - Subtask1</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">17.00-17.30</td>
+    <td class="tg-ecxm">17.00-17.30</td>
     <td onclick="shinji(this)" class="tg-0hld" rowspan="5">Shinji Watanabe & Pengcheng Guo</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">17.30-18.00</td>
+    <td class="tg-ecxm">17.30-18.00</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">18.00-18.30</td>
+    <td class="tg-ecxm">18.00-18.30</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">18.30-19.00</td>
+    <td class="tg-ecxm">18.30-19.00</td>
     <td onclick="samuel(this)" class="tg-hjwb" rowspan="2">Samuel Thomas</td>
   </tr>
   <tr>
-    <td class="tg-xgl6">19.00-19.30</td>
+    <td class="tg-ecxm">19.00-19.30</td>
   </tr>
 </tbody>
 </table></div>
